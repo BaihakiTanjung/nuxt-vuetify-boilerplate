@@ -1,4 +1,6 @@
-# template-treelog-nuxt-vuetify
+# nuxt-vuetify-boilerplate
+Boilerplate nuxt dengan vuetify dengan segala ekosistemnya
+
 
 ## Build Setup
 
