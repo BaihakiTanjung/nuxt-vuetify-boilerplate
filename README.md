@@ -1,6 +1,24 @@
 # nuxt-vuetify-boilerplate
 Boilerplate nuxt dengan vuetify dengan segala ekosistemnya
 
+## Folder structure
+
+| Folder name        | Children           | Goal  |
+| ------------- |:-------------:| -----:|
+| /api     | apiUrl | API URL |
+|       | /services      | Return Axios evocation. Services are loaded in Nuxt as plugins (see more at /plugins/services.js). |
+| /assets | /scss      |    |
+|  | /images      |    |
+| /consts | consts      |    |
+| /components | .vue      |  Vue component  |
+| /helpers | ApiHandler      |  Builder handling API calls.  |
+|  | CustomError      |  Throw custom error while handling API response to be catched by ApiHandler.  |
+|  | ResponseHelper      |  Builder handling API responses.   |
+| /layouts | .vue      |  Nuxt layout. Contains views.  |
+| /pages | .vue      | View. Rendered inside layout.   |
+| /plugins |    |  Plugins run before instantiating Vue root. Plugins are declared inside nuxt.config.js  |
+| /static |       |     |
+| /store |      | Vuex   |
 
 ## Build Setup
 
