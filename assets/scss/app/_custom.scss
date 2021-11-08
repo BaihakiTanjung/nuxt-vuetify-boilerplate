@@ -1,0 +1,25 @@
+.vue-notification {
+  padding: 10px;
+  margin: 0 5px 5px;
+
+  font-size: 1em;
+
+  color: #ffffff;
+  background: $primary;
+  border-left: 5px solid $secondary;
+
+  &.warn {
+    background: $warning !important;
+    border-left-color: #f48a06 !important;
+  }
+
+  &.error {
+    background: $danger !important;
+    border-left-color: #b82e24 !important;
+  }
+
+  &.success {
+    background: $success !important;
+    border-left-color: #42a85f !important;
+  }
+}

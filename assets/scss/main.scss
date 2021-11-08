@@ -1,0 +1,32 @@
+$primary: #005aff;
+$secondary: #276ce3;
+$success: #53d86a;
+$info: #05b168;
+$warning: #ffcb2f;
+$danger: #fd3d39;
+$light: #f7f7f7;
+$dark: #3a3d42;
+$shadow: rgb(0, 0, 0, 0.3);
+
+html,
+body {
+  font-family: "Roboto", sans-serif !important;
+  scroll-behavior: smooth;
+  font-size: 16px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+@import "app/custom";
+@import "app/app";
